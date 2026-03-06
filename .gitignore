@@ -1,0 +1,11 @@
+# Python (pour Bird-Api)
+__pycache__/
+.venv/
+*.pyc
+
+# Node.js (pour Bird-React)
+node_modules/
+dist/
+.output/
+.env
+.DS_Store
