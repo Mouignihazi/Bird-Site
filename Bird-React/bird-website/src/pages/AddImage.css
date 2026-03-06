@@ -1,0 +1,163 @@
+
+.add-image-page {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+
+.upload-block,
+.select-bird-block {
+
+  width: 420px;
+  min-height: 420px;
+
+  background: linear-gradient(
+    145deg,
+    rgba(166,216,168,0.85),
+    rgba(166,216,168,0.65)
+  );
+
+  backdrop-filter: blur(10px);
+
+  border-radius: 30px;
+
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+
+.upload-block h2,
+.select-bird-block h2 {
+
+  background:#e8e8e8;
+
+  padding:10px ;
+
+  border-radius:12px;
+
+  border:2px solid #333;
+
+  font-size:14px;
+
+  text-align:center;
+
+  color: black;
+}
+
+
+.file-input,
+.author-input,
+.search-input {
+
+  padding: 12px;
+
+  border-radius: 10px;
+
+  border: none;
+
+  font-size: 15px;
+
+  color: black;
+}
+
+
+
+.bird-list {
+
+  max-height: 260px;
+
+  overflow-y: auto;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+
+  margin-top: 10px;
+}
+
+
+
+.bird-item {
+
+  padding: 20px;
+
+  border-radius: 10px;
+
+  background: white;
+
+  cursor: pointer;
+
+  text-align: center;
+
+  color: black;
+
+  transition: 0.2s;
+}
+
+
+
+.bird-item:hover {
+
+  background: #e6f5e7;
+}
+
+
+.selected {
+
+  background: #9fdba3;
+
+  font-weight: bold;
+}
+
+
+.selected-bird {
+
+  margin-top: 10px;
+
+  font-weight: bold;
+
+  color: black;
+
+  text-align: center;
+}
+
+
+.upload-btn {
+
+  margin-top: 10px;
+
+  padding: 12px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background: #5fae63;
+
+  color: black;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+
+  .add-image-page {
+
+    flex-direction: column;
+
+    align-items: center;
+  }
+
+}
